@@ -2,9 +2,79 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Responsive Design and Forms</title>
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
   </head>
   <body>
-
+    <p>Responsive web design enhances both the user and developer experience.
+      For users, It increases accessibility and makes sites easier to find.
+      For developers, it simplifies content and code management while increasing focus on functionality.
+    </p>
+    <p>Sites gain greater accessibility by being responsive – scaling to any screen size while maintaining a rich, clean and clear content experience.
+      When users can easily visit a site from any device, a user base will grow.
+      If smaller screen customers can’t use the site easily, that site risks <a href="https://www.socpub.com/articles/the-5-mobile-marketing-mistakes-infographic-14849">losing 50% of users</a>.
+    </p>
+    <p>Recently, google began giving additional SEO recognition to mobile friendly sites.
+      Neglecting responsive design presents the risk of losing customers in a measurable way.
+      If a user can’t find the answer near the top of the first page of search results,
+      chances of a them coming to your site <a href="https://searchenginewatch.com/sew/study/2276184/no-1-position-in-google-gets-33-of-search-traffic-study">dramatically decrease</a>.
+    </p>
+    <p>Developers using responsive web design do not need to anticipate the myriad ways
+      users access their browsers, or how they will in the future.
+      If we approach the problem of different screen sizes holistically, we are released from
+      the complicated task of maintaining different sets of code for each, from the smallest
+      mobile or wearable screen, to the largest game console browser
+      displayed on the living room television.
+    </p>
+    <p>When code is written to be responsive, the developer must prioritize the functionality of the site,
+      creating a user experience that is quick and easy.
+      This helps us avoid scope creep and bloat while focusing on user goals.
+    </p>
+    <form>
+      <p>
+        <label for="responsive">What kind of responsive web site are you?</label>
+        <select name="responsive" id="responsive">
+          <option value="">Please Choose One</option>
+          <option value="smart">Smart</option>
+          <option value="shy">Shy</option>
+          <option value="flirty">Flirty</option>
+          <option value="bold">Bold</option>
+        </select>
+      </p>
+      <p>
+      <fieldset>
+        <legend>Should the president be a reponsive web site?</legend>
+        <label>
+        <input type="checkbox" name="president" value="yes">
+        Yes
+        </label>
+        <label>
+        <input type="checkbox" name="president" value="no">
+        No
+        </label>
+        <label>
+        <input type="checkbox" name="president" value="what">
+        What?
+        </label>
+      </fieldset>
+      </p>
+      <p>
+      <fieldset>
+        <legend>If you could make someone else into a responsive web site, would they be happy or sad?</legend>
+        <label>
+        <input type="radio" name="child-count" value="happy" required>Happy
+        </label>
+        <label>
+        <input type="radio" name="child-count" value="1" required>Sad
+        </label>
+      </fieldset>
+      </p>
+      <p>  <label>How do you feel about ghosts?
+        <textarea name="comments"></textarea>
+        </label>
+        <input type="submit" name="submit" value="Submit">
+      </p>
+    </form>
   </body>
 </html>
