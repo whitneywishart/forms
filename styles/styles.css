@@ -1,0 +1,18 @@
+html  {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 50%;
+  }
+
+h2 {
+  background-color: blue;
+  color: white;
+}
+
+a:hover {
+  background-color: lavender;
+  transition: .5s ease;
+}
